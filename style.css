@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500;900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #36393F;
+}
+nav{
+    background-color:  #36393F;
+    height: 64px;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.inner-nav{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-icon{
+    color: #F84857;
+    font-size: 40px;
+}
+.nav-ul{
+    margin: 0;
+    display: flex;
+
+}
+.nav-li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+a{
+ color: white;
+ text-decoration: none;
+}
+.home-section{
+    height: 80vh;
+    width: 100VW;
+    background-color:#36393F;
+    display: flex;
+}
+.home-left{
+    width: calc(50% - 200px);
+    padding-left: 100px ;
+}
+.home-rigth{
+    height: 100%;
+    width: 50%;
+    padding-right: 100PX;
+}
+.social-item{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: 2px solid #F84857;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    margin: 4px;
+}
+.social-item:hover{
+    transform: scale(1.2);
+}
+.social-icon{
+    font-size: 25px;
+}
+h1{
+    margin: 0;
+    color: white;
+
+}
+p{
+    color: white;
+    margin: 20px;
+}
+.social-ul{
+    display: flex; 
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+}
+.social-li{
+    list-style: none;
+}
+img{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    margin: 55px;
+    padding: 100px;
+}
+.foot-pager{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: cadetblue;
+}
+.foot-li{
+    list-style: none;
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    margin: 10PX;
+    padding: 0PX;
+}
+.foot-ul{
+    display: flex; 
+    margin: 0;
+    padding: 0;
+    justify-content: right
+}
+.nav-items{
+    padding-left: 60%;
+}
