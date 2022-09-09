@@ -3,6 +3,11 @@
 body{
     margin: 0;
     background-color: #36393F;
+    overflow-x: hidden;
+
+}
+p, h1{
+    margin: 0%;
 }
 nav{
     background-color:  #36393F;
@@ -37,19 +42,22 @@ a{
  text-decoration: none;
 }
 .home-section{
-    height: 80vh;
+    margin: 50px;
+
     width: 100VW;
     background-color:#36393F;
     display: flex;
 }
 .home-left{
-    width: calc(50% - 200px);
-    padding-left: 100px ;
-}
-.home-rigth{
-    height: 100%;
     width: 50%;
-    padding-right: 100PX;
+    padding-left: 50px ;    
+}
+.home-right{
+    height: 100%;
+    width: 40%;
+    padding-right: 10%;
+    display: grid;
+    place-items: center;
 }
 .social-item{
     height: 60px;
@@ -88,13 +96,11 @@ p{
     list-style: none;
 }
 img{
-    height: 50%;
-    width: 50%;
-    display: flex;
-    margin: 55px;
-    padding: 100px;
+    width: 400px;
 }
 .foot-pager{
+    position: fixed;
+    bottom: 0;
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -117,4 +123,70 @@ img{
 }
 .nav-items{
     padding-left: 60%;
+}
+
+
+.my-portfolio{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid #F84857;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36393F;
+
+}
+.button2{
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #F84857;
+    margin-left: 50px;
+
+
+}
+.buttons{
+    height: 200px;
+    display: flex;
+  
+}
+.play{
+    color: white;
+    font-size: 20px;
+
+}
+.grids{
+    display: grid;
+    width: 60vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 50px 0;
+    margin: auto;
+    
+   
+
+}
+.grid{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-color: #23263A;
+    font-size: 30px;
+    color: #FF4A57  ;
+}
+.my-services{
+    width: 20vw;
+    margin: auto;
+    text-align: center;
+}
+.my-services h1{
+    color: white;
+}
+.my-services p{
+    color: white;
 }
